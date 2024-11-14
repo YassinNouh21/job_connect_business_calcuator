@@ -115,12 +115,14 @@ with tab3:
     st.subheader("2. Human Recruiter Cost Calculation")
     st.write("**Hourly Wage per Recruiter** = Monthly Salary per Recruiter / Total Working Hours per Month")
     st.write("**Cost per Candidate** = Hourly Wage per Recruiter × (Processing Time per Candidate / 60)")
-    st.write("**Total Cost for Candidates (within capacity)** = Cost per Candidate × Min(Total Candidates, Maximum Candidates Processed by Team)")
+    st.write("**Total Cost for Candidates (within capacity)** = Cost per Candidate × Min(Total Candidates, "
+             "Maximum Candidates Processed by Team)")
 
     st.subheader("3. Team Processing Capacity")
     st.write("**Total Working Hours per Month per Recruiter** = Workdays per Month × Working Hours per Day")
     st.write("**Total Working Minutes per Month per Recruiter** = Total Working Hours per Month per Recruiter × 60")
-    st.write("**Maximum Candidates Processed by Team in a Month** = (Team Size × Total Working Minutes per Month per Recruiter) / Processing Time per Candidate")
+    st.write("**Maximum Candidates Processed by Team in a Month** = (Team Size × Total Working Minutes per Month per "
+             "Recruiter) / Processing Time per Candidate")
 
     st.subheader("4. Total Salary for All Recruiters")
     st.write("**Total Salary for All Recruiters** = Monthly Salary per Recruiter × Team Size")
